@@ -1,0 +1,61 @@
+name: micasa_home_gh
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  flutter_rating_bar: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  grouped_list: ^5.1.2
+  flutter_svg_provider: ^1.0.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Gelasio
+      fonts: 
+        - asset: assets/fonts/GelasioSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/GelasioBold.ttf
+          weight: 700
+        - asset: assets/fonts/GelasioRegular.ttf
+          weight: 400
+        - asset: assets/fonts/GelasioMedium.ttf
+          weight: 500
+    - family: Nunito Sans
+      fonts: 
+        - asset: assets/fonts/NunitoSansRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoSansSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NunitoSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoSansLight.ttf
+          weight: 300
+        - asset: assets/fonts/NunitoSansExtraBold.ttf
+          weight: 800
+    - family: Merriweather
+      fonts: 
+        - asset: assets/fonts/MerriweatherBold.ttf
+          weight: 700
+        - asset: assets/fonts/MerriweatherRegular.ttf
+          weight: 400
+    - family: Metropolis
+      fonts: 
+        - asset: assets/fonts/MetropolisSemiBold.ttf
+          weight: 600
